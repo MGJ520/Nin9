@@ -1,0 +1,26 @@
+.vscode/
+.idea/
+
+# Keil project files (keep .uvprojx, ignore others)
+project/*.uvoptx
+project/*.uvguix.*
+project/JLinkLog.txt
+project/JLinkSettings.ini
+project/EventRecorderStub.scvd
+
+# Keil build output
+project/listings/
+project/objects/
+
+# Compiled objects and temporary files
+project/*.crf
+project/*.d
+project/*.o
+project/*.axf
+project/*.hex
+project/*.map
+project/*.htm
+project/*.lnp
+project/*.sct
+project/*.dep
+

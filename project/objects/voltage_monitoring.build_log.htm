@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 MGJ, 123, LIC=GMZI6-DED5T-Y8IFK-ZCPK6-20WQW-CBN2N
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.40.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\MyFile\AT32\Code\AT32F415\3.HALL\project\HALL.uvprojx
+Project File Date:  05/12/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'HALL'
+compiling at32f415_misc.c...
+compiling at32f415_gpio.c...
+compiling main.c...
+..\user\main.c(577): warning:  #177-D: variable "v_pa2"  was declared but never referenced
+      float v_pa2;
+..\user\main.c(724): warning:  #1-D: last line of file ends without a newline
+  /* end of file */
+..\user\main.c: 2 warnings, 0 errors
+assembling startup_at32f415.s...
+compiling at32f415_dma.c...
+compiling at32f415_tmr.c...
+compiling at32f415_usart.c...
+compiling at32f415_clock.c...
+compiling at32f415_int.c...
+compiling at32f415_board.c...
+compiling at32f415_adc.c...
+compiling at32f415_exint.c...
+compiling at32f415_i2c.c...
+compiling at32f415_crm.c...
+compiling system_at32f415.c...
+linking...
+Program Size: Code=10170 RO-data=434 RW-data=136 ZI-data=1632  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin .\objects\voltage_monitoring.axf --output "../bin/firmware.bin"
+".\objects\voltage_monitoring.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ArteryTek
+                
+                ArteryTek.AT32F415_DFP.2.1.8
+                ArteryTek AT32F415 Series Device Support,Drivers
+
+<h2>Collection of Component include folders:</h2>
+  D:\Keil_v5\Packs\ArteryTek\AT32F415_DFP\2.1.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
